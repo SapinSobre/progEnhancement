@@ -1,0 +1,108 @@
+body{
+	max-width: 90%;
+	position:absolute;
+	left:5%;
+	
+}
+main{
+	background-image: linear-gradient(#DEE2EE, #4A79A8);
+	/*background-image: url("photoNature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	padding: 50px 10% 75px 10%;
+}
+p{
+	font-family: Garamond;
+	line-height: 30px;
+	font-size: 1.4em;
+	font-style: #888888;
+}
+li a{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+q{
+	
+}
+li a:hover{
+	color: pink;
+}
+li a:visited{
+	color:lightgreen;
+}
+p:first-child{
+	font-weight: bold;
+}
+tr(odd){
+	background-color: grey;
+}
+blockquote{
+	font-style: italic;
+	width:50%;
+	margin-left:22.5%;
+	margin-top:80 px;
+	margin-bottom: 40px;
+	font-size: 1.6em;
+	background-color: lightGrey;
+	border-left: 3px solid grey;
+	padding: 30px;
+}
+header figure{
+	margin-left:40%;
+}
+header figure figcaption{
+	padding-left:1%;
+}
+#conclusion{
+	text-align: center;
+	color: white;
+}
+h3{
+	padding-left: 34.5%;
+	margin-bottom: 15px;
+}
+table{
+	text-align:center;
+	width:35%;
+	margin-left: 35%;
+}
+#legendeTableau{	
+	margin-top: 15px;
+	padding-left: 5%;
+	text-align:center
+}
+#firstSentence{
+	font-weight: bold;
+}
+tr:nth-child(odd){
+	background-color:white;
+}
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+td, th{
+	padding: 5%;
+}
+blockquote figcaption{
+	font-size: 1.2em;
+}
+.bad{
+	color: red;
+	text-transform: uppercase;
+}
+.good{
+	color: green;
+	text-transform: uppercase;
+}
+.farmer{
+	border-left: 2px solid red;
+}
+.villagers{
+	border-left: 2px solid blue;
+}
+header h1{
+	background-color: yellow;
+	padding: 10px 0 10px 30%;
+	opacity: 0.5;
+}
+
